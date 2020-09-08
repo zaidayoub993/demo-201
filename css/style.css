@@ -1,10 +1,14 @@
 body{
-    background-color: blueviolet;
+    background-color: black;
+
 }
-.p1{
-color:blue;
-border:1px;
+.demo {
+    color: red;
+    font-size: 50px;
+
 }
-#p2{
-    color:red
+.sec2{
+    color: red;
+   font-size: 40px; 
+
 }
