@@ -40,68 +40,68 @@
 // //         console.log('black');
 // //         break;
 // // }
-// 'use strict'
-// var name = prompt('do you know my name ?');
-// var res = name.toUpperCase();
-// switch (name) {
-//     case 'yes':
-//         break;
-//     case 'no':
-//         break;
-//     default:
-//         break;
+'use strict'
+var name = prompt('do you know my name ?');
+var res = name.toUpperCase();
+switch (name) {
+    case 'yes':
+        break;
+    case 'no':
+        break;
+    default:
+        break;
+}
+var name = prompt('do you like coding ?');
+var res = name.toUpperCase();
+switch (name) {
+    case 'yes':
+        break;
+    case 'no':
+        break;
+    default:
+        break;
+}
+var name = prompt('do you like pasta  ?');
+var res = name.toUpperCase();
+switch (name) {
+    case 'yes':
+        break;
+    case 'no':
+        break;
+    default:
+        break;
+}
+var name = prompt('do you like memes ?');
+var res = name.toUpperCase();
+switch (name) {
+    case 'yes':
+        break;
+    case 'no':
+        break;
+    default:
+        break;
+}
+var name = prompt('are you alive  ?');
+var res = name.toUpperCase();
+switch (name) {
+    case 'yes':
+        break;
+    case 'no':
+        break;
+    default:
+        break;
+}
+// function myFunction() {
+//     var str = "Hello World!";
+//     var res = str.toUpperCase();
+//     document.getElementById("demo").innerHTML = res;
 // }
-// var name = prompt('do you like coding ?');
-// var res = name.toUpperCase();
-// switch (name) {
-//     case 'yes':
-//         break;
-//     case 'no':
-//         break;
-//     default:
-//         break;
-// }
-// var name = prompt('do you like pasta  ?');
-// var res = name.toUpperCase();
-// switch (name) {
-//     case 'yes':
-//         break;
-//     case 'no':
-//         break;
-//     default:
-//         break;
-// }
-// var name = prompt('do you like memes ?');
-// var res = name.toUpperCase();
-// switch (name) {
-//     case 'yes':
-//         break;
-//     case 'no':
-//         break;
-//     default:
-//         break;
-// }
-// var name = prompt('are you alive  ?');
-// var res = name.toUpperCase();
-// switch (name) {
-//     case 'yes':
-//         break;
-//     case 'no':
-//         break;
-//     default:
-//         break;
-// }
-// // function myFunction() {
-// //     var str = "Hello World!";
-// //     var res = str.toUpperCase();
-// //     document.getElementById("demo").innerHTML = res;
-// // }
-// function func() { 
-//     var str = 'name'; 
-//     var string = str.toUpperCase(); 
-//     document.write(string); 
-// } 
-// func(); 
+function func() {
+    var str = 'name';
+    var string = str.toUpperCase();
+    document.write(string);
+}
+func();
 'use strict'
 var numberofcorrectanswoer = 0;
 
@@ -206,14 +206,12 @@ while (numberOftrial < 4) {
 
 }
 
-
-
 var hoppies = ["gaming", "being funny", "dancing", "workout", "kickboxing"];
 
-for (var i=0; i< 6;i++){
-// var numberoftrail = 0;
-// while (numberoftrail < 6) {
-//     debugger;
+for (var i = 0; i < 6; i++) {
+    // var numberoftrail = 0;
+    // while (numberoftrail < 6) {
+    //     debugger;
     var q7 = prompt("Guess one of my hoppies ").toLowerCase();
     var result = true;
     for (var j = 0; j < hoppies.length; j++) {
@@ -245,5 +243,5 @@ for (var i=0; i< 6;i++){
 
 }
 
-// alert("the possible correct answers are[" + "singing" + "," + "reading" + "," + "dancing" + "," + "coocking" + "," + "kickboxing" + "]")
-// alert("Your result is " + numbe
+alert("the possible correct answers are[" + "singing" + "," + "reading" + "," + "dancing" + "," + "coocking" + "," + "kickboxing" + "]")
+alert("Your result is " + number);
